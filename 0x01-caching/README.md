@@ -37,7 +37,7 @@ Cache replacement policies are strategies used by systems to decide which items 
 ## Parent class BaseCaching
 * All your classes must inherit from BaseCaching defined below:
 
-`$ cat base_caching.py
+```$ cat base_caching.py
 #!/usr/bin/python3
 """ BaseCaching module
 """
@@ -69,4 +69,4 @@ class BaseCaching():
     def get(self, key):
         """ Get an item by key
         """
-        raise NotImplementedError("get must be implemented in your cache class")`
+        raise NotImplementedError("get must be implemented in your cache class")```
