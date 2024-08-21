@@ -5,7 +5,7 @@ from base_caching import BaseCaching
 
 class LIFOCache(BaseCaching):
     '''start caching by using lifo algorithm'''
-    
+
     def __init__(self):
         '''the constractor method'''
         super().__init__()
